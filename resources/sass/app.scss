@@ -1,0 +1,49 @@
+@import "~bootstrap-scss/bootstrap";
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+.header {
+    background: url('../images/AxeHausAxes.jpg') no-repeat center center;
+    background-size: contain;
+    min-height: 400px;
+    margin-top: -3.5em;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.sign-up {
+    text-align: center;
+    h2 {
+        margin-top: -1em;
+        padding: 0;
+    }
+    img {
+        display: none;
+    }
+    form {
+        text-align:left;
+    }
+}
+
+/* Space out content a bit */
+@media screen and (min-width: 768px) {
+    .header {
+        background: url('../images/AxeHausAxes.jpg') no-repeat;
+        background-size: cover;
+        height: 100vh;
+    }
+
+    .sign-up {
+        img {
+            display: block;
+        }
+        h2 {
+            display: none;
+        }
+    }
+}
