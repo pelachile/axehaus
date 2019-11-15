@@ -15,7 +15,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::post('/newsletter', 'NewsLetterController@signup');
+Route::post('/newsletter', 'NewsletterController@signup');
 
 Auth::routes();
 
