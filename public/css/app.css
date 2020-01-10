@@ -10945,12 +10945,16 @@ a.text-dark:focus {
   padding: 0;
 }
 
-.sign-up img {
+.sign-up .business-card {
   display: none;
 }
 
 .sign-up form {
   text-align: left;
+}
+
+.sign-up .watl {
+  text-align: center;
 }
 
 /* Space out content a bit */
@@ -10968,6 +10972,10 @@ a.text-dark:focus {
 
   .sign-up h2 {
     display: none;
+  }
+
+  .sign-up .business-card {
+    display: block;
   }
 }
 
