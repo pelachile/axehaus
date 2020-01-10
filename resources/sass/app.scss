@@ -22,11 +22,15 @@
         margin-top: -1em;
         padding: 0;
     }
-    img {
+    .business-card {
         display: none;
     }
     form {
         text-align:left;
+    }
+
+    .watl {
+        text-align: center;
     }
 }
 
@@ -44,6 +48,10 @@
         }
         h2 {
             display: none;
+        }
+
+        .business-card {
+            display: block;
         }
     }
 }

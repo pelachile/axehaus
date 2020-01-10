@@ -18,7 +18,9 @@
             <div class="header col-md-6">
             </div>
             <div class="sign-up align-self-center col-md-6">
-                <img src="/images/AxeHausBusinessCard.jpg" class="img-fluid" alt="">
+                <div class="business-card">
+                    <img src="/images/AxeHausBusinessCard.jpg" class="img-fluid" alt="">
+                </div>
                 <h2>Corpus Christi Axe Haus</h2>
                 <p>
                     Fill out the form and we will send you information on pricing, memberships, business hours and more
@@ -49,6 +51,8 @@
                     </div>
                     <button type="submit" class="btn btn-primary">Submit</button>
                 </form>
+                <h3>Proud members of the</h3>
+                <img src="./images/WATL.png" alt="WATL" class="img-fluid">
             </div>
         </div><!-- marketing -->
     </div><!-- container -->
